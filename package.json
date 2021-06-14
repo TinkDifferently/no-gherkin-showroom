@@ -1,0 +1,21 @@
+{
+  "name": "no-gherkin-showroom",
+  "version": "1.0.0",
+  "description": "short guide for no-gherkin webtest",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "lint": "npx eslint --max-warnings=0 --ext .tsx,.ts,.js,.jsx src/ --fix"
+  },
+  "main": "index.ts",
+  "author": "no-gherkin",
+  "keywords": [
+    "Selenium",
+    "Automated testing",
+    "no-gherkin-webtest"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^91.0.1",
+    "no-gkerkin-webtest": "^1.0.8-beta"
+  }
+}

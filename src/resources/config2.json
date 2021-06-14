@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://57js2.csb.app/",
+  "timeout": 300,
+  "page.path": "pages"
+}
